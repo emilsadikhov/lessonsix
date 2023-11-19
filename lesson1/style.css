@@ -1,0 +1,64 @@
+.container{
+  
+  display: grid;
+  justify-content: center;
+}
+h1, li{
+    font-family: "Montserrat";
+    
+}
+ul{
+    justify-items: start;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+ul li{
+    font-size: 30px;
+}
+h1{
+    font-size: 50px;
+}
+.in-container{
+    background-color: aqua;
+}
+.container{
+    background-color: aquamarine;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead{ background-color: #333;
+  color: #fff;
+}
+.divwithtable{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+table th,
+td {
+  padding: 50px;
+    font-size: 50px;
+    font-family: "Montserrat";
+}
+h1{
+  text-align: center;
+  font-family: "Montserrat";
+}
+tfoot tr td, thead tr th, thead,td, th{
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+
