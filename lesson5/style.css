@@ -1,0 +1,100 @@
+
+.inputfirst{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.textinput{
+    margin-left: 30px;
+    height: 30px;
+    width: 300px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 0.1 color(srgb red green blue);
+}
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead{ background-color: #333;
+  color: #fff;
+}
+.divwithtable{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+table th,
+td {
+  padding: 50px;
+    font-size: 50px;
+    font-family: "Montserrat";
+}
+h1{
+  text-align: center;
+  font-family: "Montserrat";
+}
+tfoot tr td, thead tr th, thead,td, th{
+  transition: 1s ease-in-out;
+  cursor: pointer;
+}
+th, td:hover{
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 50px rgba(255, 255, 255,
+    0.4), 0 0 80px rgba(255, 255, 255, 0.2), 0 0 150px rgba(255, 255, 255, 0.1); /*
+    Тени текста */
+  background-color: rgb(24, 83, 37);
+  
+}
+a{
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 50px rgba(255, 255, 255,
+    0.4), 0 0 80px rgba(255, 255, 255, 0.2), 0 0 150px rgba(255, 255, 255, 0.1); 
+    transform: translate(2px 3px);
+}
+.green_book{
+  
+  transition: 2s ease-in-out;
+}
+.green_book:hover{
+  transform:  translateY(-20px) rotateX(40deg) translateX(-50px) ;
+  color: rgb(25, 59, 25);
+  font-weight: bold;
+  
+}
+.container {
+  position: relative; /* Позиционирование контейнера */
+  display: inline-block; /* Отображение как блочный элемент */
+  overflow: hidden; /* Скрытие частей изображения, выходящих за границы
+  контейнера */
+  }
+  /* Задаём свойства изображения */
+  .container img {
+  display: block; /* Отображение как блочный элемент */
+  width: 80%; /* Ширина 100% */
+  height: auto; /* Автоматическое вычисление высоты */
+  }
+  /* Задаём свойства заголовка */
+  .container h1 {
+  position: absolute; /* Абсолютное позиционирование заголовка */
+  top: 50%; /* Отступ от верхней границы контейнера на 50% */
+  left: 50%; /* Отступ от левой границы контейнера на 50% */
+  transform: translate(-50%, -50%); /* Смещаем заголовок на 50% влево и на 50%
+  вверх */
+  color: #fff; /* Цвет текста */
+  font-size: 5rem; /* Размер шрифта */
+  font-weight: bold; /* Жирный шрифт */
+  text-transform: uppercase; /* Преобразуем текст в верхний регистр */
+  text-align: center; /* Выравнивание по центру */
+  letter-spacing: 5px; /* Межбуквенное расстояние */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Тени текста */
+  transition: all 0.5s ease; /* Плавный переход */
+  }
+  /* Эффект при наведении на изображение */
+  .container:hover h1 {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.6), 0 0 50px rgba(255, 255, 255,
+  0.4), 0 0 80px rgba(255, 255, 255, 0.2), 0 0 150px rgba(255, 255, 255, 0.1); /*
+  Тени текста */
+  transform: translateY(-20px) rotateX(40deg); /* Смещение и поворот текста */
+  }
